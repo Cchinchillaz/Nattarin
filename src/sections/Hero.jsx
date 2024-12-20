@@ -57,11 +57,15 @@ function Hero() {
 
 
   return (
-    <section className="min-h-screen w-full flex flex-row relative ">
-      <div className="w-full mx-auto flex flex-col 
+    <section className="min-h-screen w-full flex flex-row relative">
+      <div className="mx-auto flex flex-col w-full
       sm:mt-36 mt-20 c-spacae gap-3 pl-6 sm:pl-12 pr-6 sm:pr-12 z-10">
-        <h1 className='sm:text-10xl text-7xl font-black text-white-800 text-left'>Nattarin</h1>
-        <h1 className='sm:text-10xl text-7xl font-black text-white-800 text-right pr-15'>Portfolio</h1>
+        <div className="content w-full">
+        <div className="text-container">
+          <h1 data-text='Nattarin' className='sm:text-10xl text-7xl font-black text-white-800 text-left name-logo'>Nattarin</h1>
+          <h1 data-text='Portfolio' className='sm:text-10xl text-7xl font-black text-white-800 text-left port-logo'>Portfolio</h1>
+        </div>
+      </div>
         <p className="sm:text-3xl text-xl font-medium text-white-800 text-left font-generalsans">
           Hi, I am Nattarin <span className="waving-hand">👋</span>
         </p>
