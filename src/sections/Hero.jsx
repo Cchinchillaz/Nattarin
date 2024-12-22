@@ -9,6 +9,8 @@ import { useMediaQuery } from 'react-responsive'
 import Target from '../components/Target'
 import Cube from '../components/Cube.jsx'
 import CatCamera from '../components/CatCamera.jsx'
+import { FaExternalLinkAlt } from "react-icons/fa"
+
 function Hero() {
   // const c = useControls('Cat',{
   //   positionX: {
@@ -57,7 +59,7 @@ function Hero() {
 
 
   return (
-    <section className="min-h-screen w-full flex flex-row relative">
+    <section className="min-h-screen w-full flex flex-column relative">
       <div className="mx-auto flex flex-col w-full
       sm:mt-36 mt-20 c-spacae gap-3 pl-6 sm:pl-12 pr-6 sm:pr-12 z-10">
         <div className="content w-full">
@@ -72,6 +74,10 @@ function Hero() {
         <p className='sm:text-xl text-lg text-white-800 text-left font-generalsans'>
           I am a computer engineering student at CU.
         </p>
+        <a className='self-start mt-3 hover:underline hover:bg-black-100 bg-black-100/70 text-white-800 font-bold rounded-md p-2 w-1/6 text-center flex flex-row' href="https://docs.google.com/document/d/1HjllVHvZEcJTYL2eLzcqN49fvtzatQjWsI5jOMXZB_A/edit?tab=t.0" target="_blank">
+          <p className='text-xl ml-2'>View my CV</p>
+          <p className= 'text-xl ml-4 mr-2'><FaExternalLinkAlt /></p>
+        </a>
       </div>
       <div className="w-full h-full absolute inset-0">
         {/* <Leva /> */}
