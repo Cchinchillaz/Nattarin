@@ -97,7 +97,45 @@ section .scroll.text3 {
 section .scroll.text4 {
   transform: rotate(-10deg);
 }
-
+.card {
+ @apply md:w-[3.5vw] xl:w-[4vw] w-[8vw];
+  border-radius: 10px;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  margin-right: 1.5vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+  height: 250px;
+  background-color: #1f1e1e;
+  transition-duration: 1s;
+  box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+}
+.icon {
+  @apply rounded-full flex justify-center items-center bg-white-800 font-bold
+  w-[6vw] h-[6vw] mx-[1vw] md:w-[2.5vw] md:h-[2.5vw] md:mx-[0.5vw] xl:w-[3vw] xl:h-[3vw] xl:mx-[0.5vw] ;
+}
+.description {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  @apply w-[44vw] md:w-[22vw] xl:w-[32vw] bg-black/50 rounded-md pl-1 sm:h-[150px] h-[100px];
+  opacity: 0;
+  transform: translateY(40px);
+  transition-delay: .3s;
+  transition: all .3s ease;
+  margin-bottom: 10px;
+}
+input:checked + label {
+  @apply md:w-[26vw] xl:w-[38vw] w-[52vw];
+}
+input:checked + label .description {
+  opacity: 1;
+  transform: translateY(0);
+}
 @keyframes animate {
   0% {
     transform: translateX(0%);
@@ -294,7 +332,7 @@ section .scroll.text4 {
 
   /* about section */
   .grid-container {
-    @apply w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+    @apply w-full h-full border border-black-300 bg-black-100/30 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
   }
 
   .grid-headtext {

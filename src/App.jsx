@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
 import Scrollbar from './sections/Scrollbar'
+import About from './sections/About'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Scrollbar />
+      <About />
     </main>
   )
 }

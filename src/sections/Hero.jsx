@@ -63,20 +63,20 @@ function Hero() {
       <div className="mx-auto flex flex-col w-full
       sm:mt-36 mt-20 c-spacae gap-3 pl-6 sm:pl-12 pr-6 sm:pr-12 z-10">
         <div className="content w-full">
-        <div className="text-container">
-          <h1 data-text='Nattarin' className='sm:text-10xl text-7xl font-black text-white-800 text-left name-logo'>Nattarin</h1>
-          <h1 data-text='Portfolio' className='sm:text-10xl text-7xl font-black text-white-800 text-left port-logo'>Portfolio</h1>
+        <div className="text-container overflow-hidden">
+          <h1 data-text='Nattarin' className='sm:text-10xl text-6xl font-black text-white-800 text-left name-logo'>Nattarin</h1>
+          <h1 data-text='Portfolio' className='sm:text-10xl text-6xl font-black text-white-800 text-left port-logo'>Portfolio</h1>
         </div>
       </div>
         <p className="sm:text-3xl text-xl font-medium text-white-800 text-left font-generalsans">
           Hi, I am Nattarin <span className="waving-hand">👋</span>
         </p>
         <p className='sm:text-xl text-lg text-white-800 text-left font-generalsans'>
-          I am a computer engineering student at CU.
+          you can call me Chinchin
         </p>
-        <a className='self-start mt-3 hover:underline hover:bg-black-100 bg-black-100/70 text-white-800 font-bold rounded-md p-2 w-1/6 text-center flex flex-row' href="https://docs.google.com/document/d/1HjllVHvZEcJTYL2eLzcqN49fvtzatQjWsI5jOMXZB_A/edit?tab=t.0" target="_blank">
+        <a className='border-2 border-white-800 self-start mt-3 hover:underline hover:bg-black-100 bg-black-100/70 text-white-800 font-bold rounded-md p-2 text-center flex flex-row' href="https://docs.google.com/document/d/1HjllVHvZEcJTYL2eLzcqN49fvtzatQjWsI5jOMXZB_A/edit?tab=t.0" target="_blank">
           <p className='text-xl ml-2'>View my CV</p>
-          <p className= 'text-xl ml-4 mr-2'><FaExternalLinkAlt /></p>
+          <p className= 'text-2xl ml-4 mr-2'><FaExternalLinkAlt /></p>
         </a>
       </div>
       <div className="w-full h-full absolute inset-0">
@@ -85,7 +85,7 @@ function Hero() {
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
             <CatCamera>
-              <Cat scale={isMobile? 2.2:2.9} position={isMobile? [2,-0.3,10]:[10,-0.3,10]} rotation={[-2.9,-2.7,3.3]} />
+              <Cat scale={isMobile? 2.2:2.9} position={isMobile? [2,-0.3,10]:[10,-3,10]} rotation={[-2.9,-2.7,3.3]} />
             </CatCamera>
             <group>
               <Target position={sizes.targetPosition}/>
