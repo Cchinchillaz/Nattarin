@@ -4,6 +4,7 @@ import Hero from './sections/Hero'
 import Scrollbar from './sections/Scrollbar'
 import About from './sections/About'
 import Quote from './sections/Quote'
+import Experiences from './sections/Experiences'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Scrollbar />
       <About />
       <Quote />
+      <Experiences />
     </main>
   )
 }

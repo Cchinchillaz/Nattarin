@@ -26,7 +26,7 @@ export const navLinks = [
     },
   ];
 
-  export const myProjects = [
+export const myProjects = [
     {
       title: 'Podcastr - AI Podcast Platform',
       desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
@@ -214,9 +214,9 @@ export const navLinks = [
         },
       ],
     },
-  ];
+];
   
-  export const calculateSizes = (isSmall, isMobile, isTablet) => {
+export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
       cubePosition: isSmall ? [-3, 7, 0] : isMobile ? [-8, 10, 0] : isTablet ? [-7, 10, 0] : [-20, 10, 0],
       targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-8, -13, -10],
@@ -276,9 +276,9 @@ export const navLinks = [
       name: "cpp",
       icon: "assets/tech/cpp.png",
     },
-  ];
+];
 
-  export const hobbies = [
+export const hobbies = [
     { 
       number:1,
       id: "c1",
@@ -303,4 +303,62 @@ export const navLinks = [
       title: 'Movies',
       desc: 'I like to watch movies, my favorite is Dead Poets Society!',
     }
-  ]
+];
+
+export const experiences = [
+  {
+    id: 1,
+    title: 'Software Engineer Intern',
+    company: 'Google',
+    desc: 'Worked on the Google Search team to improve the search results for users. Implemented a new algorithm that improved the search results by 20%.',
+  },
+  {
+    id: 2,
+    title: 'Frontend Developer',
+    company: 'Facebook',
+    desc: 'Worked on the Facebook Ads team to improve the user experience for advertisers. Implemented a new feature that increased the click-through rate by 10%.',
+  },
+  {
+    id: 3,
+    title: 'Software Engineer Intern',
+    company: 'Amazon',
+    desc: 'Worked on the Amazon Web Services team to improve the performance of the cloud services. Implemented a new feature that reduced the latency by 30%.',
+  },
+  {
+    id: 4,
+    title: 'Frontend Developer',
+    company: 'Microsoft',
+    desc: 'hhh',
+  },
+  {
+    id: 5,
+    title: 'Software Engineer Intern',
+    company: 'Apple',
+    desc: 'dation system. Implemented a new algorithm that increased the user satisfaction',
+  },
+  {
+    id: 6,
+    title: 'Frontend Developer',
+    company: 'Netflix',
+    desc: 'Worked on the Netflix team to improve the user experience for viewers. Implemented a new feature that increased the watch time by 20%.',
+  },
+  {
+    id: 7,
+    title: 'Software Engineer Intern',
+    company: 'Spotify',
+    desc: 'Worked on the Spotify team to improve the recommendation system. Implemented a new algorithm that increased the user satisfaction',
+  },
+  {
+    id: 8,
+    title: 'Frontend Developer',
+    company: 'Twitter',
+    desc: 'Worked on the Twitter team to improve the user experience for advertisers. Implemented a new feature that increased the click-through rate by 10%.',
+  },
+  {
+    id: 9,
+    title: 'Frontend Developer',
+    company: 'Twitter',
+    desc: 'Worked on the Twitter team to improve the u',
+  }
+];
+  

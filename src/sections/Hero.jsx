@@ -64,8 +64,8 @@ function Hero() {
       sm:mt-36 mt-20 c-spacae gap-3 pl-6 sm:pl-12 pr-6 sm:pr-12 z-10">
         <div className="content w-full">
         <div className="text-container overflow-hidden">
-          <h1 data-text='Nattarin' className='sm:text-10xl text-6xl font-black text-white-800 text-left name-logo'>Nattarin</h1>
-          <h1 data-text='Portfolio' className='sm:text-10xl text-6xl font-black text-white-800 text-left port-logo'>Portfolio</h1>
+          <h1 data-text='Nattarin' className='lg:text-10xl md:text-9xl text-6xl font-black text-white-800 text-left name-logo'>Nattarin</h1>
+          <h1 data-text='Portfolio' className='lg:text-10xl md:text-9xl text-6xl font-black text-white-800 text-left port-logo'>Portfolio</h1>
         </div>
       </div>
         <p className="sm:text-3xl text-xl font-medium text-white-800 text-left font-generalsans">

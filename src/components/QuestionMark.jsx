@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import { MeshTransmissionMaterial, useGLTF, Text } from "@react-three/drei";
 import { useFrame, useThree } from '@react-three/fiber'
 import { useControls } from 'leva'
+import { useMediaQuery } from 'react-responsive'
 
 export default function QuestionMark() {
     const { nodes } = useGLTF("models/cube.glb");
@@ -29,16 +30,21 @@ export default function QuestionMark() {
         ior: 1.2,
         chromaticAberration: 0.09,
     }
-    
+
+    const isSmall = useMediaQuery({ maxWidth: 700 });
+
     return (
         <group scale={viewport.width / 6} >
-            <Text position={[0, 0.3, -1]} fontSize={0.5} color="white" anchorX="center" anchorY="middle">
+            <Text position={[0, 0.3, -1]} fontSize={isSmall? 0.4:0.5} color="white" anchorX="center" anchorY="middle">
                 Life's like a box of chocolates
             </Text>
-            <Text position={[0, -0.2, -1]} fontSize={0.5} color="white" anchorX="center" anchorY="middle">
+            <Text position={[0, -0.2, -1]} fontSize={isSmall? 0.4:0.5} color="white" anchorX="center" anchorY="middle">
                 You never know what you're gonna get
             </Text>
-            <mesh ref={torus} {...nodes.Cube} scale={0.4} position={[0, 0, 0]} >
+            <Text position={[3, -0.8, -1]} fontSize={0.2} color="white" anchorX="center" anchorY="middle">
+               - Forrest Gump 1994
+            </Text>
+            <mesh ref={torus} {...nodes.Cube} scale={isSmall? 0.4:0.3} position={[0, 0, 0]} >
                 <MeshTransmissionMaterial {...materialProps}/>
             </mesh>
         </group>
