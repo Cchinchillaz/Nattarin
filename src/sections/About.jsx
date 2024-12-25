@@ -16,7 +16,7 @@ function About() {
        xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
             <div className="col-span-1 xl:row-span-3">
                 <div className="grid-container">
-                    <img src="/assets/grid1.png" alt="grid-1" className='w-1/2 sm:h-[276px] h-[365px] object-contain self-center' />
+                    <img src="assets/grid1.png" alt="grid-1" className='w-1/2 sm:h-[276px] h-[365px] object-contain self-center' />
                     <div>
                         <p className='grid-headtext'>Hi, I am Nattarin</p>
                         <p className='grid-subtext'>I'm currently studying computer engineering 
@@ -27,7 +27,7 @@ function About() {
             
             <div className="col-span-1 xl:row-span-3">
                 <div className="grid-container">
-                    <img src="/assets/grid3.png" alt="grid-2" className="w-full sm:h-[276px] h-[365px] object-contain" />
+                    <img src="assets/grid3.png" alt="grid-2" className="w-full sm:h-[276px] h-[365px] object-contain" />
                     <div>
                         <p className='grid-headtext'>Mypassions</p>
                         <p className='grid-subtext'>To be a cool dev and creating unprecedented innovations for the world of technology, 
@@ -63,7 +63,7 @@ function About() {
 
                             <div key = {hobby.id}>
                                 <input type="radio" name="slide" id={hobby.id} checked className="hidden" />
-                                <label for={hobby.id} className='card' style={{backgroundImage: `url('/assets/hobby${hobby.number}.png')`, backgroundSize: 'cover'}}>
+                                <label for={hobby.id} className='card' style={{backgroundImage: `url('assets/hobby${hobby.number}.png')`, backgroundSize: 'cover'}}>
                                     <div className="flex flex-nowrap justify-center">
                                         <div className="icon">{hobby.number}</div>
                                         <div className="description">
@@ -82,7 +82,7 @@ function About() {
 
             <div className="xl:col-span-1 xl:row-span-2">
                 <div className="grid-container">
-                    <img src="/assets/grid4.png" alt="grid-4" className="w-full md:h-[126px] sm:h-[276px] h-[365px] object-cover sm:object-top" />
+                    <img src="assets/grid4.png" alt="grid-4" className="w-full md:h-[126px] sm:h-[276px] h-[365px] object-cover sm:object-top" />
                     <div className='space-y-2'>
                         <p className='grid-subtext text-center'>Contact me</p>
                         <div className="copy-container" onClick={handleCopy}>

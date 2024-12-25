@@ -7,7 +7,7 @@ Files: hacker-room-new.glb [34.62MB] > /Users/hsuwinlat/Desktop/jsm pj/threejscc
 import { useGLTF } from '@react-three/drei';
 
 export function Cat(props) {
-  const { nodes, materials } = useGLTF('/models/cat_dispenser.glb');
+  const { nodes, materials } = useGLTF('models/cat_dispenser.glb');
 
   return (
     <group {...props} dispose={null}>

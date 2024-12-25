@@ -34,18 +34,18 @@ export const navLinks = [
         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
       href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
       texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+      logo: 'assets/project-logo1.png',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
         boxShadow: '0px 0px 60px 0px #AA3C304D',
       },
-      spotlight: '/assets/spotlight1.png',
+      spotlight: 'assets/spotlight1.png',
       tags: [
         {
           id: 1,
           name: 'React.js',
-          path: '/assets/react.svg',
+          path: 'assets/react.svg',
         },
         {
           id: 2,
@@ -55,12 +55,12 @@ export const navLinks = [
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: 'assets/typescript.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: 'assets/framer.png',
         },
       ],
     },
@@ -71,18 +71,18 @@ export const navLinks = [
         'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
       href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+      logo: 'assets/project-logo2.png',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
         boxShadow: '0px 0px 60px 0px #2F6DB54D',
       },
-      spotlight: '/assets/spotlight2.png',
+      spotlight: 'assets/spotlight2.png',
       tags: [
         {
           id: 1,
           name: 'React.js',
-          path: '/assets/react.svg',
+          path: 'assets/react.svg',
         },
         {
           id: 2,
@@ -92,12 +92,12 @@ export const navLinks = [
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: 'assets/typescript.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: 'assets/framer.png',
         },
       ],
     },
@@ -108,7 +108,7 @@ export const navLinks = [
         'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
       href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
       texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+      logo: 'assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -116,12 +116,12 @@ export const navLinks = [
         border: '0.2px solid rgba(208, 213, 221, 1)',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
-      spotlight: '/assets/spotlight3.png',
+      spotlight: 'assets/spotlight3.png',
       tags: [
         {
           id: 1,
           name: 'React.js',
-          path: '/assets/react.svg',
+          path: 'assets/react.svg',
         },
         {
           id: 2,
@@ -131,12 +131,12 @@ export const navLinks = [
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: 'assets/typescript.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: 'assets/framer.png',
         },
       ],
     },
@@ -147,18 +147,18 @@ export const navLinks = [
         'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
       href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
       texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
+      logo: 'assets/project-logo4.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
         border: '0.2px solid #0E2D58',
         boxShadow: '0px 0px 60px 0px #2F67B64D',
       },
-      spotlight: '/assets/spotlight4.png',
+      spotlight: 'assets/spotlight4.png',
       tags: [
         {
           id: 1,
           name: 'React.js',
-          path: '/assets/react.svg',
+          path: 'assets/react.svg',
         },
         {
           id: 2,
@@ -168,12 +168,12 @@ export const navLinks = [
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: 'assets/typescript.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: 'assets/framer.png',
         },
       ],
     },
@@ -184,18 +184,18 @@ export const navLinks = [
         'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
       href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
       texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
+      logo: 'assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
-      spotlight: '/assets/spotlight5.png',
+      spotlight: 'assets/spotlight5.png',
       tags: [
         {
           id: 1,
           name: 'React.js',
-          path: '/assets/react.svg',
+          path: 'assets/react.svg',
         },
         {
           id: 2,
@@ -205,12 +205,12 @@ export const navLinks = [
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: 'assets/typescript.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: 'assets/framer.png',
         },
       ],
     },
@@ -226,55 +226,55 @@ export const navLinks = [
   export const technologies = [
     {
       name: "HTML 5",
-      icon: "/assets/tech/html.png",
+      icon: "assets/tech/html.png",
     },
     {
       name: "CSS 3",
-      icon:"/assets/tech/css.png",
+      icon:"assets/tech/css.png",
     },
     {
       name: "JavaScript",
-      icon: "/assets/tech/javascript.png",
+      icon: "assets/tech/javascript.png",
     },
     {
       name: "Python",
-      icon: "/assets/tech/python.png",
+      icon: "assets/tech/python.png",
     },
     {
       name: "React JS",
-      icon: "/assets/tech/reactjs.png",
+      icon: "assets/tech/reactjs.png",
     },
     {
       name: "Java",
-      icon: "/assets/tech/java.png",
+      icon: "assets/tech/java.png",
     },
     {
       name: "Tailwind CSS",
-      icon: "/assets/tech/tailwind.png",
+      icon: "assets/tech/tailwind.png",
     },
     {
       name: "Node JS",
-      icon: "/assets/tech/nodejs.png",
+      icon: "assets/tech/nodejs.png",
     },
     {
       name: "MongoDB",
-      icon: "/assets/tech/mongodb.png",
+      icon: "assets/tech/mongodb.png",
     },
     {
       name: "Three JS",
-      icon: "/assets/tech/threejs.svg",
+      icon: "assets/tech/threejs.svg",
     },
     {
       name: "git",
-      icon: "/assets/tech/git.png",
+      icon: "assets/tech/git.png",
     },
     {
       name: "figma",
-      icon: "/assets/tech/figma.png",
+      icon: "assets/tech/figma.png",
     },
     {
       name: "cpp",
-      icon: "/assets/tech/cpp.png",
+      icon: "assets/tech/cpp.png",
     },
   ];
 
