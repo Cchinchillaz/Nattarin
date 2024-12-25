@@ -1,20 +1,3 @@
-import {
-  javascript,
-  python,
-  html,
-  css,
-  reactjs,
-  java,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  cpp,
-  threejs,
-} from "../assets";
-
-
 export const navLinks = [
     {
       id: 1,
@@ -243,55 +226,55 @@ export const navLinks = [
   export const technologies = [
     {
       name: "HTML 5",
-      icon: html,
+      icon: "/assets/tech/html.png",
     },
     {
       name: "CSS 3",
-      icon: css,
+      icon:"/assets/tech/css.png",
     },
     {
       name: "JavaScript",
-      icon: javascript,
+      icon: "/assets/tech/javascript.png",
     },
     {
       name: "Python",
-      icon: python,
+      icon: "/assets/tech/python.png",
     },
     {
       name: "React JS",
-      icon: reactjs,
+      icon: "/assets/tech/reactjs.png",
     },
     {
       name: "Java",
-      icon: java,
+      icon: "/assets/tech/java.png",
     },
     {
       name: "Tailwind CSS",
-      icon: tailwind,
+      icon: "/assets/tech/tailwind.png",
     },
     {
       name: "Node JS",
-      icon: nodejs,
+      icon: "/assets/tech/nodejs.png",
     },
     {
       name: "MongoDB",
-      icon: mongodb,
+      icon: "/assets/tech/mongodb.png",
     },
     {
       name: "Three JS",
-      icon: threejs,
+      icon: "/assets/tech/threejs.svg",
     },
     {
       name: "git",
-      icon: git,
+      icon: "/assets/tech/git.png",
     },
     {
       name: "figma",
-      icon: figma,
+      icon: "/assets/tech/figma.png",
     },
     {
       name: "cpp",
-      icon: cpp,
+      icon: "/assets/tech/cpp.png",
     },
   ];
 

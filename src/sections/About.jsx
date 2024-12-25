@@ -4,6 +4,12 @@ import { technologies } from '../constants/index'
 import { hobbies } from '../constants/index'
 
 function About() {
+    const [hasCopied, setHasCopied] = React.useState(false);
+    const handleCopy = ()=>{
+        navigator.clipboard.writeText('nattarinchet@gmail.com');
+        setHasCopied(true);
+        setTimeout(() => {setHasCopied(false);}, 2000);
+    }
   return (
     <section className='c-space my-20'>
        <div className="grid xl:grid-cols-3 
@@ -77,10 +83,13 @@ function About() {
             <div className="xl:col-span-1 xl:row-span-2">
                 <div className="grid-container">
                     <img src="/assets/grid4.png" alt="grid-4" className="w-full md:h-[126px] sm:h-[276px] h-[365px] object-cover sm:object-top" />
-                    <div>
-                        <p className='grid-headtext'>Mypassions</p>
-                        <p className='grid-subtext'>To be a cool dev and creating unprecedented innovations for the world of technology, 
-                            also I would like to create my own game some day!</p>
+                    <div className='space-y-2'>
+                        <p className='grid-subtext text-center'>Contact me</p>
+                        <div className="copy-container" onClick={handleCopy}>
+                            <img src={hasCopied ?
+                                'assets/tick.svg': 'assets/copy.svg'} alt="copy" />
+                            <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient text-white'>nattarinchet@gmail.com</p>
+                        </div>
                     </div>
                 </div>
             </div>
