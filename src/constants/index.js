@@ -218,7 +218,7 @@ export const navLinks = [
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
-      cubePosition: isSmall ? [-3, 7, 0] : isMobile ? [-8, 10, 0] : isTablet ? [-10, 10, 0] : [-20, 10, 0],
+      cubePosition: isSmall ? [-3, 7, 0] : isMobile ? [-8, 10, 0] : isTablet ? [-7, 10, 0] : [-20, 10, 0],
       targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-8, -13, -10],
     };
   };

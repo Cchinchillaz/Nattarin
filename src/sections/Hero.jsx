@@ -85,7 +85,7 @@ function Hero() {
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
             <CatCamera>
-              <Cat scale={isMobile? 2.2:2.9} position={isMobile? [2,-0.3,10]:[10,-3,10]} rotation={[-2.9,-2.7,3.3]} />
+              <Cat scale={isMobile? 2.2:2.9} position={isMobile? [2,-0.3,10]: isTablet? [4,-3,10]:[10,-3,10]} rotation={[-2.9,-2.7,3.3]} />
             </CatCamera>
             <group>
               <Target position={sizes.targetPosition}/>

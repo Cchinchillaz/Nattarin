@@ -30,7 +30,7 @@ function About() {
                     <img src="assets/grid3.png" alt="grid-2" className="w-full sm:h-[276px] h-[365px] object-contain" />
                     <div>
                         <p className='grid-headtext'>Mypassions</p>
-                        <p className='grid-subtext'>To be a cool dev and creating unprecedented innovations for the world of technology, 
+                        <p className='grid-subtext'>To be a cool dev and create unprecedented innovations for technology world, 
                             also I would like to create my own game some day!</p>
                     </div>
                 </div>
