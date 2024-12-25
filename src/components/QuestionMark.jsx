@@ -38,7 +38,7 @@ export default function QuestionMark() {
             <Text position={[0, -0.2, -1]} fontSize={0.5} color="white" anchorX="center" anchorY="middle">
                 You never know what you're gonna get
             </Text>
-            <mesh ref={torus} {...nodes.Cube} scale={1.5} position={[0, 0, 0]} >
+            <mesh ref={torus} {...nodes.Cube} scale={0.4} position={[0, 0, 0]} >
                 <MeshTransmissionMaterial {...materialProps}/>
             </mesh>
         </group>
