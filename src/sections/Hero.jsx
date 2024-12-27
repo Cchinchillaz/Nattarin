@@ -59,7 +59,7 @@ function Hero() {
 
 
   return (
-    <section className="min-h-screen w-full flex flex-column relative">
+    <section className="min-h-screen w-full flex flex-column relative" id='home'>
       <div className="mx-auto flex flex-col w-full
       sm:mt-36 mt-20 c-spacae gap-3 pl-6 sm:pl-12 pr-6 sm:pr-12 z-10">
         <div className="content w-full">
@@ -74,7 +74,7 @@ function Hero() {
         <p className='sm:text-xl text-lg text-white-800 text-left font-generalsans'>
           you can call me Chinchin
         </p>
-        <a className='border-2 border-white-800 self-start mt-3 hover:underline hover:bg-black-100 bg-black-100/70 text-white-800 font-bold rounded-md p-2 text-center flex flex-row' href="https://docs.google.com/document/d/1HjllVHvZEcJTYL2eLzcqN49fvtzatQjWsI5jOMXZB_A/edit?tab=t.0" target="_blank">
+        <a className='border-2 border-white-800 self-start mt-3 hover:underline hover:bg-black-100 bg-black-100/70 text-white-800 font-bold rounded-md p-2 text-center flex flex-row' href="https://docs.google.com/document/d/1HjllVHvZEcJTYL2eLzcqN49fvtzatQjWsI5jOMXZB_A/edit?tab=t.0" target="_blank"  rel='noreferrer'>
           <p className='text-xl ml-2'>View my CV</p>
           <p className= 'text-2xl ml-4 mr-2'><FaExternalLinkAlt /></p>
         </a>
