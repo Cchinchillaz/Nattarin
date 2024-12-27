@@ -12,48 +12,10 @@ import CatCamera from '../components/CatCamera.jsx'
 import { FaExternalLinkAlt } from "react-icons/fa"
 
 function Hero() {
-  // const c = useControls('Cat',{
-  //   positionX: {
-  //     value: 2.5,
-  //     min: -10,
-  //     max: 10,
-  //   },positionY: {
-  //     value: 2.5,
-  //     min: -10,
-  //     max: 10,
-  //   },positionZ: {
-  //     value: 2.5,
-  //     min: -10,
-  //     max: 10,
-  //   }, rotationX: {
-  //     value: 2.5,
-  //     min: -10,
-  //     max: 10,
-  //   },rotationY: {
-  //     value: 2.5,
-  //     min: -10,
-  //     max: 10,
-  //   },rotationZ: {
-  //     value: 2.5,
-  //     min: -10,
-  //     max: 10,
-  //   }, scaleX: {
-  //     value: 2.5,
-  //     min: -10,
-  //     max: 10,
-  //   },scaleY: {
-  //     value: 2.5,
-  //     min: -10,
-  //     max: 10,
-  //   },scaleZ: {
-  //     value: 2.5,
-  //     min: -10,
-  //     max: 10,
-  //   }
-  // })
+ 
   const isSmall = useMediaQuery({ maxWidth: 440 });
-  const isMobile = useMediaQuery({ maxWidth: 768 });
-  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
+  const isMobile = useMediaQuery({ maxWidth: 668 });
+  const isTablet = useMediaQuery({ minWidth: 668, maxWidth: 1024 });
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
@@ -74,10 +36,17 @@ function Hero() {
         <p className='sm:text-xl text-lg text-white-800 text-left font-generalsans'>
           you can call me Chinchin
         </p>
-        <a className='border-2 border-white-800 self-start mt-3 hover:underline hover:bg-black-100 bg-black-100/70 text-white-800 font-bold rounded-md p-2 text-center flex flex-row' href="https://docs.google.com/document/d/1HjllVHvZEcJTYL2eLzcqN49fvtzatQjWsI5jOMXZB_A/edit?tab=t.0" target="_blank"  rel='noreferrer'>
-          <p className='text-xl ml-2'>View my CV</p>
-          <p className= 'text-2xl ml-4 mr-2'><FaExternalLinkAlt /></p>
-        </a>
+        <div className='flex lg:flex-row flex-col lg:gap-7 gap-3'>
+          <a className='border-2 border-white-800 self-start mt-3 hover:underline hover:bg-black-100 bg-black-100/70 text-white-800 font-bold rounded-md p-2 text-center flex flex-row' href="https://docs.google.com/document/d/1HjllVHvZEcJTYL2eLzcqN49fvtzatQjWsI5jOMXZB_A/edit?tab=t.0" target="_blank"  rel='noreferrer'>
+            <p className='text-xl ml-2'>View my CV</p>
+            <p className= 'text-2xl ml-4 mr-2'><FaExternalLinkAlt /></p>
+          </a>
+          <a className='border-2 border-white-800 self-start mt-3 hover:underline hover:bg-black-100 bg-black-100/70 text-white-800 font-bold rounded-md p-2 text-center flex flex-row' href="https://github.com/Cchinchillaz/" target="_blank"  rel='noreferrer'>
+            <p className='text-xl ml-2'>Visit my Github</p>
+            <p className= 'text-2xl ml-4 mr-2'><FaExternalLinkAlt /></p>
+          </a>
+        </div>
+       
       </div>
       <div className="w-full h-full absolute inset-0">
         {/* <Leva /> */}
@@ -85,7 +54,7 @@ function Hero() {
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
             <CatCamera>
-              <Cat scale={isMobile? 2.2:2.9} position={isMobile? [2,-0.3,10]: isTablet? [4,-3,10]:[10,-3,10]} rotation={[-2.9,-2.7,3.3]} />
+              <Cat scale={isMobile? 2.2:2.9} position={isMobile? [2,-2,10]: isTablet? [4,-3,10]:[10,-3,10]} rotation={[-2.9,-2.7,3.3]} />
             </CatCamera>
             <group>
               <Target position={sizes.targetPosition}/>
