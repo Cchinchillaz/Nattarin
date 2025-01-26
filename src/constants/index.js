@@ -69,7 +69,7 @@ export const myProjects = [
       desc: 'RPG game where the player takes on the role of TA Beam, who is lost in another multiverse and has to conquer the boss with rock-paper-scissors game!',
       subdesc:
         'This project is a part of Prog Meth course in university,made with JavaFX and OOP concept.',
-      href: 'https://github.com/2110215-ProgMeth/project-cp-2023-2-withdraw-with-me/',
+      href: 'https://github.com/RuffLogix/ta-beam-adventure',
       texture: 'textures/project/project2.mp4',
       logo: 'assets/project-logo2.png',
       logoStyle: {
